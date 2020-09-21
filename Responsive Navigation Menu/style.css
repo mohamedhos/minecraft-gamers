@@ -80,6 +80,9 @@ h1,p{
 .card-text{
   color: black ;
 }
+#carouselExampleIndicators {
+  max-width: 75%;
+}
 
 @media screen and (max-width:800px) {
   .show-menu-btn,.hide-menu-btn{
@@ -120,5 +123,8 @@ h1,p{
   }
   .card-group{
     scroll-margin-top: 1px;
+  }
+  .carousel slide {
+    width: 100%;
   }
 }
