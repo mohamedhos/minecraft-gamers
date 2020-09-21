@@ -5,26 +5,31 @@
     <title>Minecraft Gamers</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" href="https://icons.iconarchive.com/icons/dakirby309/simply-styled/128/Minecraft-icon.png"> 
   </head>
   <body style="background-color: black;">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-drak">
-      <h3 class="navbar-brand" href="#">MINECRAFT GAMERS</h3>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div style="margin-left: 40%;" class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="home.html">HOME <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">RESOURCEPACKS</a>
-          <a class="nav-link" href=maps.html>MAPS</a>
-          <a class="nav-link" href="release.html">RELEASE</a>
-          <a class="nav-link" href="https://tlauncher.org/en/">FREE DOWNLOAD</a>
-        </div>
-      </div>
-    </nav>
+  <div class="header">
+    <h3 class="logo">Minecraft Gamers</h3>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="home.html">Home</a>
+      <a href="#">RESOURCEPACKS</a>
+      <a href="maps.html">Maps</a>
+      <a href="release.html">Release</a>
+      <a href="https://tlauncher.org/en/">free download</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div><br>
   <div style="margin-top: 20px;" class="card-group">
     <a href="find-my-if-u-can--map.html"><div class="card">
       <img src="https://lh3.googleusercontent.com/-ui1-K-f5QBw/X19fFP_q9CI/AAAAAAAAAvQ/mBaUwj1oDewN1YpzgmAd0ihHofc_aSCwQCK8BGAsYHg/s512/2020-09-14.png" class="card-img-top" alt="...">
